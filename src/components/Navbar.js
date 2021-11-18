@@ -17,7 +17,7 @@ const Navbar = ({ onToggleSidebar }) => {
             <FaBars />
           </button>
         </div>
-        <Link styleClass="nav-links" />
+        <Links styleClass="nav-links" />
         <SocialLinks styleClass="nav-icons" />
       </div>
     </nav>
