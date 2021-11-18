@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
       <Sidebar isOpen={sidebarIsOpen} onToggleSidebar={toggleSidebarHandler} />
       <Navbar onToggleSidebar={toggleSidebarHandler} />
       <main>{children}</main>
-      {/* <Footer/> */}
+      <Footer />
     </>
   )
 }
