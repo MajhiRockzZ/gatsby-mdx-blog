@@ -48,8 +48,6 @@ const Recent = () => {
       })}
     </Wrapper>
   )
-
-  return <Wrapper>Banner Recent</Wrapper>
 }
 
 const Wrapper = styled.div`
