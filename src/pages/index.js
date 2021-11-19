@@ -29,7 +29,7 @@ export const query = graphql`
           slug
           date(formatString: "MMMM, Do YYYY")
           image {
-            childrenImageSharp {
+            childImageSharp {
               gatsbyImageData(placeholder: TRACED_SVG)
             }
           }
