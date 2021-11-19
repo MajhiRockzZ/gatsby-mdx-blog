@@ -1,5 +1,5 @@
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -44,7 +44,7 @@ Variables
   --fixed-width: 700px;
 }
 /*
-=============== 
+===============
 Global Styles
 ===============
 */
@@ -282,7 +282,7 @@ Navbar
 }
 /*
 ===============
-Sidebar 
+Sidebar
 ===============
 */
 .sidebar {
@@ -542,6 +542,10 @@ Single Pages
 Testing Post and Components
 ===============
 */
+
+.special {
+  color: red;
+}
 
 .code {
   background: #1e1e1e;
