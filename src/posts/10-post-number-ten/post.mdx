@@ -1,0 +1,66 @@
+import { Link } from 'gatsby'
+import { FiInfo } from 'react-icons/fi'
+import { Counter, LikeButton } from '../../components/Complete'
+
+## my first mdx file
+
+**Aliqua et voluptate sit occaecat culpa reprehenderit in Lorem** occaecat velit excepteur nostrud dolore ad. Dolor ex labore labore mollit irure ullamco voluptate. Dolore culpa qui excepteur mollit nostrud excepteur in nostrud nostrud. Anim nostrud dolor ea consequat sit nostrud Lorem sit nostrud commodo officia adipisicing minim. Laborum ut sint ex fugiat minim incididunt cillum. Ad duis consequat esse duis veniam nulla laborum quis dolor eu ullamco.
+
+# my heading h1
+
+<h1 className="special">jsx heading one</h1>
+
+###### my heading 6
+
+<div className="code">
+
+```js
+const firstName = 'sumesh'
+const lastName = 'majhi'
+```
+
+</div>
+
+<div className="nice-text">
+
+<h3>nice text </h3>
+
+<FiInfo className="nice-text-icon"> </FiInfo>
+
+Tempor cillum adipisicing eu deserunt aute et mollit adipisicing eiusmod culpa. Ut ipsum enim eiusmod enim consequat commodo sit. Est nostrud eiusmod qui nisi. Commodo laborum deserunt laborum est id consectetur in adipisicing non. Magna cillum quis et ullamco ipsum excepteur.
+
+</div>
+
+<h2> React Components </h2>
+
+<Counter />
+
+```jsx
+import React from 'react'
+import styled from 'styled-components'
+import { AiOutlineLike } from 'react-icons/ai'
+const LikeButton = () => {
+  const [value, setValue] = React.useState(0)
+  return (
+    <Wrapper>
+      <div>
+        <button onClick={() => setValue(value + 1)}>
+          <AiOutlineLike />
+        </button>
+        <p>
+          Liked the post?
+          <br />
+          Click thumbs up few times
+        </p>
+      </div>
+      <span>+{value}</span>
+    </Wrapper>
+  )
+}
+```
+
+<LikeButton />
+
+<Link to="/posts" className="btn center-btn">
+  all posts
+</Link>
