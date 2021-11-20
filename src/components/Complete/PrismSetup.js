@@ -1,11 +1,11 @@
-import React from "react"
-import Highlight, { defaultProps } from "prism-react-renderer"
-import theme from "prism-react-renderer/themes/vsDark"
-import styled from "styled-components"
+import React from 'react'
+import Highlight, { defaultProps } from 'prism-react-renderer'
+import theme from 'prism-react-renderer/themes/shadesOfPurple'
+import styled from 'styled-components'
 
 const PrismWrapper = props => {
   const className = props.children.props.className
-  const language = className.split("-")[1]
+  const language = className.split('-')[1]
 
   return (
     <Highlight
@@ -35,12 +35,12 @@ const PrismWrapper = props => {
 }
 // Styling Only
 const Pre = styled.pre`
-  background: #1e1e1e;
+  background: #2d2a55;
   padding: 1rem 1.5rem;
   border-radius: var(--radius);
   margin: 3rem 0;
   font-size: 0.9rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   overflow-x: scroll;
   .token-line {
     line-height: 1.5;
@@ -57,7 +57,7 @@ const Pre = styled.pre`
     padding: 0.05rem 0.85rem 0;
     border-top-left-radius: var(--radius);
     border-top-right-radius: var(--radius);
-    background: #1e1e1e;
+    background: #2d2a55;
   }
 `
 const Container = styled.article`
